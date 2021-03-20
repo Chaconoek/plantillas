@@ -1,0 +1,38 @@
+/* Globales */
+html{
+    box-sizing:border-box; /*HACK para box model*/
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: grey;
+}
+
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.izquierda{
+    background-color: cyan;
+    max-width: 33.3333%;
+    max-height: 100%;
+}
+
+.centro{
+    background-color: violet;
+    max-width: 33.3333%;
+    max-height: 100%;
+}
+
+.derecha{
+    background-color: goldenrod;
+    max-width:  33.3333%;
+    max-height: 100%;
+}
