@@ -1,0 +1,77 @@
+/* Globales */
+html{
+    box-sizing:border-box; /*HACK para box model*/
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: grey;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.contenido{
+    
+    display: flex;
+    
+    width: 100vw;
+    
+
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 10vh;
+}
+
+.lateral{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 25vw;
+
+}
+
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+
+}
+
+.izquierda{
+    background-color: cyan;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+
+.derecha{
+    background-color: goldenrod;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.pie{ 
+    text-align: center;
+    background-color: violet;
+
+    height: 10vh;
+
+}
