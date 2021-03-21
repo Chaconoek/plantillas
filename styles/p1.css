@@ -6,19 +6,36 @@ html{
 *,*:before, *:after{
     box-sizing: inherit;
 }
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-color: grey;
+    
 }
 
 .banner{
     display: flex;
-    justify-content: center;
-    background-color: red;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: rgb(94, 21, 122);
     width: 100%;
     height: 10vh;
-
+    font-size: 2rem;
+    color: white;
 }
+
+.banner > svg{
+    margin:0;
+    margin-left: .5rem;
+}
+
+svg{
+    margin-top: 1rem;
+}
+
 
 .principal{
     display: flex;
@@ -26,21 +43,60 @@ body{
     height: 80vh;
 }
 
+
 .izquierda{
-    background-color: cyan;
-    max-width: 30%;
-    max-height: 100%;
+    background-color:gainsboro;
+    width: 15%;
+    height: 100%;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navegacion a{
+    text-decoration:none;
+    font-size: 2rem;
+    font-weight: 550;
+    padding-left: 1rem;
+}
+
+.navegacion a:hover{
+    background-color: rgb(254,196,89);
+    padding-right: .5rem;
+    color:white;
+}
+
+.navecacion svg:hover{
+    color: white;
 }
 
 .derecha{
-    background-color: goldenrod;
-    max-width: 70%;
-    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+    color: black;
+    background-image: url(/img/portal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .20;
+    
 }
+
+
 
 .pie{ 
     text-align: center;
-    background-color: violet;
+    background-color: rgb(94, 21, 122);
     width: 100%;
     height: 10vh;
+    font-size: .50rem;
+    color:white;
+}
+
+span{
+    font-size: 1.5rem;
+    color: white;
 }
