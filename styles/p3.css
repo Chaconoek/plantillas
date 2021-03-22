@@ -7,11 +7,23 @@ html{
     box-sizing: inherit;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: grey;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
 }
 
+.titulo{
+    background-color: ghostwhite;
+}
 
+.titulo, .datos{
+    font-family: 'Martel', serif;
+    text-align: center;
+}
 
 .principal{
     display: flex;
@@ -20,19 +32,42 @@ body{
 }
 
 .izquierda{
-    background-color: cyan;
-    max-width: 33.3333%;
-    max-height: 100%;
+    background-color:rgb(212,231,222);
+    width: 33.3333%;
+    height: 100%;
+    padding:1rem;
 }
 
 .centro{
-    background-color: violet;
-    max-width: 33.3333%;
-    max-height: 100%;
+    background-color:rgb(187,170,150);
+    width: 33.3333%;
+    height: 100%;
+    padding:1rem;
 }
 
 .derecha{
-    background-color: goldenrod;
-    max-width:  33.3333%;
-    max-height: 100%;
+    background-color:rgb(100,79,41);
+    width: 33.3333%;
+    height: 100%;
+    padding:1rem;
+}
+
+img{
+    max-width: 95%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    -webkit-filter: blur(10px);
+    filter: blur(20px);
+}
+
+img:hover{
+    -webkit-filter: none;
+}
+
+.datos{
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px .5px rgba(255, 255, 255, 0.459);
+    padding-top: 1rem;
+
 }
