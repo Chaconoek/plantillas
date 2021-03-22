@@ -57,17 +57,19 @@ body{
 
 .lateral a {
     font-size: 2rem;
-    color:black;
+    color:rgb(6,6,41);
+    text-align: justify;
+    text-decoration: none;
 }
 
 .lateral a:hover{
-    background-color: rgb(0,0,66);
+    background-color: rgb(255, 0, 0);
     padding-right: .5rem;
     color:white;
 }
 
 .lateral svg:hover{
-    color: rgb(0,0,66);
+    color: rgb(206, 243, 138);
 }
 
 
