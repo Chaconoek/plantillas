@@ -7,30 +7,87 @@ html{
     box-sizing: inherit;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: grey;
+    background-image: url(/img/autos.png);
+    font-family: 'Oswald', sans-serif;
 }
 
 .banner{
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: rgb(244,243,238);
     width: 100%;
     height: 10vh;
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black
+    
+}
 
+
+.banner a{
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black
+}
+
+
+.nav{
+    width: 100%;
+    height: 100%;
 }
 
 .principal{
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 80vh;
 }
 
-.arriba{
-    background-color: seagreen;
-    width:100vw;
-    height: 100vh;
+.sombra{
+    -webkit-box-shadow: 0px 0px 49px -5px rgba(9,9,9,1);
+    -moz-box-shadow: 0px 0px 49px -5px rgba(9,9,9,1);
+    box-shadow: 0px 0px 49px -5px rgba(9,9,9,1);
 }
+
+.arriba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:60vw;
+    height: 80vh;
+}
+
+.arriba img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 95%;
+}
+
+
+
+
+.arriba p{
+    font-size: 1rem;
+    color:rgb(244,243,238);
+}
+
+.arriba a{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+}
+
 
 .cuadritos{
     display: flex;
@@ -39,23 +96,87 @@ body{
 
 
 .izquierda{
-    background-color: cyan;
+    
     flex-basis: 33.33333%;
+}
+
+.izquierda img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 22vw;
+    height: 27vh;
+    
+    
+    border:2px solid rgb(9,9,9);
+    -moz-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -webkit-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+        
+    
 }
 
 .centro{
-    background-color:royalblue;
+    
     flex-basis: 33.33333%;
+}
+
+.centro img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 22vw;
+    height: 27vh;
+
+    border:2px solid rgb(9,9,9);
+    -moz-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -webkit-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
 }
 
 .derecha{
-    background-color: goldenrod;
+    background-color: black;
     flex-basis: 33.33333%;
 }
 
+
+
+.derecha img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25vw;
+    height: 27vh;
+
+    border:2px solid rgb(9,9,9);
+    -moz-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -webkit-box-shadow: 10px 10px 5px rgb(22,22,22);
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+
 .pie{ 
-    text-align: center;
-    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(35,47,62);
     width: 100%;
-    height: 10vh;
+    height: 15vh;
+    padding-top: 1rem;
+}
+
+.pie p{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.pie span{
+    font-weight: bold;
 }
